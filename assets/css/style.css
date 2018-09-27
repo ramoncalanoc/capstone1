@@ -86,6 +86,7 @@ body{
 	background-image: url(../image/head-about.png);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 }
 
 .fadeIn{
