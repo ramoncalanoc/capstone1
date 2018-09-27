@@ -7,6 +7,9 @@
 
     <title>Contact</title>
 
+    <link rel="icon" type="image/ico" href="assets/image/toque.png" />
+
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -22,85 +25,181 @@
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <nav class="navbar navbar-expand-lg navbar-dark col-lg-12 font2 fixed-top">
+        <img src="assets/image/logo.png" height="60" width="200">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-      </div>
-    </nav>   <!-- end of navbar -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="recipes.html">Recipes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link hov active" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>   <!-- end of navbar -->
+
+
+
+
+      <div id="carouselExampleSlidesOnly" class="carousel slide slideshow" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="slider2 d-block w-100" src="assets/image/contacts/slide1.png" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="slider2 d-block w-100" src="assets/image/contacts/slide2.png" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="slider2 d-block w-100" src="assets/image/contacts/slide3.png" alt="Third slide">
+          </div>
+        </div>
+      </div>   <!-- end of carousel -->
+
 
 
 
     <div class="container">
       <div class="row">
-        <div class="col-lg-1"></div>
+        <div class="col-lg-2"></div>
 
-          <div class="col-lg-5">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.8344468085534!2d121.07909431525509!3d14.60850498979748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b81d0ec46417%3A0x8468bc2ed1aaad16!2sAccenture!5e0!3m2!1sen!2sph!4v1537353890775" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-          </div>   <!-- for the google map -->
-
-
-          <div class="col-lg-5">
+          <div class="col-lg-8 mt-3">
             <form class="form-horizontal">
-              <legend>Contact Us</legend>
+              <legend class="font3">Wanna share your own recipes? Message us below!</legend>
 
               <div class="form-group">
-                <label class="col-lg-4" for="fullname">Full Name</label>
-                <input id="fullname" name="fullname" placeholder="Full Name" class="form-control" type="text">
+
+              <form>
+                <div class="row">
+                  <div class="col">
+                    <input type="text" class="form-control font-talic" placeholder="First name">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control font-talic" placeholder="Last name">
+                  </div>
+                </div>
+              </form>
+                
               </div>
 
               <div class="form-group">
-                <label class="col-lg-4" for="email">Email</label>
-                <input id="email" name="email" placeholder="Email" class="form-control" type="email">
+                <input id="email" name="email" placeholder="JuanDelaCruz@gmail.com" class="form-control font-talic" type="email">
               </div>
 
               <div class="form-group">
-                <label class="col-lg-4" for="message">Message</label>
                 <textarea class="form-control" id="message" name="message" placeholder="Type your message here"></textarea>
               </div>
 
               <div class="form-group">
-                <div class="col-lg-4">
-                  <button id="submit" name="submit" class="btn btn-outline-primary">Submit</button>
+                <div class="offset-lg-4 offset-md-2 offset-sm-1 col-lg-4 col-md-8 col-sm-10">
+                  <button id="submit" name="submit" class="btn btn-outline-dark text-center btn-block">Submit</button>
                 </div>
               </div>
+
+              <div class="row mx-auto mb-5 googs">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.8344468085534!2d121.07909431525509!3d14.60850498979748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b81d0ec46417%3A0x8468bc2ed1aaad16!2sAccenture!5e0!3m2!1sen!2sph!4v1537353890775" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+              </div>   <!-- for the google map -->
             </form>
           </div>   <!-- for the contact form -->
 
 
-        <div class="col-lg-1"></div>
+        <div class="col-lg-2"></div>
         
       </div>
     </div>    <!-- end of container -->
+
+
+
+
+    <footer class="footer text-center">
+
+        <div class="row">
+          <div class="col-lg-4 col-md-3 col-sm-1"></div>
+
+          <div class="col-lg-4 col-md-6 col-sm-10">
+            <div class="pl-1 pr-1">
+              <img class="logo-footer" src="assets/image/logo.png">  
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-3 col-sm-10"></div>
+        </div>   <!-- end of logo -->
+
+
+          <div class="row mb-3"> 
+            <div class="col-lg-4 col-md-3 col-sm-1"></div>
+              <div class="col-lg-4 col-md-6 col-sm-10">
+                <div class="row ">
+                    <a class="icons" href="https://www.facebook.com/ramon.calanoc"><i class="fab fa-facebook-f fa-2x"></i></a>
+                    <a class="icons" href="https://www.youtube.com/channel/UCZEKdPM75hZPd0CoC_WGHnQ?view_as=subscriber"><i class="fab fa-youtube fa-2x"></i></a>
+                    <a class="icons" href="https://twitter.com/skizm3"><i class="fab fa-twitter fa-2x"></i></a>
+                    <a class="icons" href="https://www.instagram.com/ramoncalanoc/"><i class="fab fa-instagram fa-2x"></i></a>
+                    <a class="icons" href="https://www.linkedin.com/in/ramon-calanoc-098324110/"><i class="fab fa-linkedin-in fa-2x"></i></a>
+
+              </div>
+                </div>
+              <div class="col-lg-4 col-md-3 col-sm-10"></div>
+          </div>   <!-- end of fontawesome icons-->
+
+
+
+          <div class="descrip row p-0 mb-2">
+            <div class="col-lg-2 col-md-2 col-sm-1"></div>
+              <div class="col-lg-8 col-md-8 col-sm-10">
+                <div class="row">
+                    <h3 class=" font2 mx-auto">Reach us, save your favorite dishes and share your recipes</h3>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-2 col-sm-10"></div>
+          </div>
+
+
+
+          <div class="row">
+            <div class="col-lg-2 col-md-2 col-sm-1"></div>
+              <div class="col-lg-8 col-md-8 col-sm-10">
+                <div class="row form-all">
+                   
+                   <label class="cont col-lg-4 mb-1">
+                     <input id="fullname" name="fullname" placeholder="Surname, Firstname, M.I." class="input form-control font-italic  " type="text">
+                   </label>
+
+                   <label for="email" class="cont col-lg-4 mb-1">
+                     <input id="email" name="email" placeholder="JuanDelaCruz@gmail.com" class="input form-control font-italic " type="email">
+                   </label>
+
+                   <div class="cont col-lg-4 mb-1">
+                     <button id="submit" name="submit" class="input btn btn-block">Submit</button>  
+                   </div>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-2 col-sm-10"></div>
+          </div>   <!-- end of form -->
+
+          <div class="row offset-col-2">
+
+            <small class="mx-auto mt-2 mb-3">
+              &copy; Copyright 2018 | Ramon Calanoc
+            </small>
+          </div>
+
+          <marquee><p class="font3">DISCLAIMER:  <small>All information provided in official Toque Web sites is provided for information purposes only and does not constitute a legal contract between the College and any person or entity unless otherwise specified. Information on official College websites is subject to change without prior notice. Although every reasonable effort is made to present current and accurate information, Toque makes no guarantees of any kind.</small></p>
+          
+          
+      </footer>   <!-- end of footer -->
    
 
  

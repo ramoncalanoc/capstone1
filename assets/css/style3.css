@@ -1,0 +1,70 @@
+@font-face {
+    font-family: titlefont;
+    src: url(../font/blacksword-main.otf);
+}
+
+@font-face {
+    font-family: subtitle;
+    src: url(../font/shadedlarch-secondary.ttf);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.font1{
+	font-family: titlefont;
+	color: #c4c4c4;
+}
+
+.font2{
+	font-family: subtitle;
+	color: #c4c4c4;
+}
+
+body{
+	background-image: url(../image/landing-bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+}
+
+.outer{
+	height: 100vh;
+	width: 100%;
+	background-color: black;
+	opacity: .7;
+	box-sizing: border-box;
+
+}
+
+
+
+
+
+
+
+
+
+
+/*Media Queries*/
+
+/*desktop style*/
+@media only screen and (min-width: 961px){
+
+}
+
+
+/*table style*/
+@media only screen and (min-width: 401px) and (max-width: 960px){
+
+}
+
+
+/*mobile style*/
+@media only screen and (max-width: 400px){
+	
+}

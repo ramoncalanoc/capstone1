@@ -10,21 +10,24 @@
     <link rel="icon" type="image/ico" href="assets/image/toque.png" />
 
 
-    <!-- font awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/lightbox.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
        <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/lightbox.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-
   </head>
+
+
+
   <body>
     
     <nav class="navbar navbar-expand-lg navbar-dark col-lg-12 font2 fixed-top">
@@ -36,7 +39,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link hov active" href="home.html">Home</a>
+              <a class="nav-link" href="home.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="about.html">About</a>
@@ -45,7 +48,7 @@
               <a class="nav-link" href="recipes.html">Recipes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="gallery.html">Gallery</a>
+              <a class="nav-link hov active" href="gallery.html">Gallery</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contact.html">Contact</a>
@@ -53,6 +56,7 @@
           </ul>
         </div>
       </nav>   <!-- end of navbar -->
+
 
 
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -63,17 +67,17 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active ">
-            <img class="slider d-block w-100" src="assets/image/carousel-home/carousel1.png" alt="First slide">
+            <img class="slider d-block w-100" src="assets/image/gallery-gal/4.jpg" alt="First slide">
             <div class="carousel-caption d-none d-md-block">
             </div>
           </div>
           <div class="carousel-item ">
-            <img class="slider d-block w-100" src="assets/image/carousel-home/carousel2.png" alt="Second slide">
+            <img class="slider d-block w-100" src="assets/image/gallery-gal/2.jpg" alt="Second slide">
             <div class="carousel-caption d-none d-md-block">
             </div>
           </div>
           <div class="carousel-item ">
-            <img class="slider d-block w-100" src="assets/image/carousel-home/carousel3.png" alt="Third slide">
+            <img class="slider d-block w-100" src="assets/image/gallery-gal/8.jpg" alt="Third slide">
             <div class="carousel-caption d-none d-md-block">
             </div>
           </div>
@@ -89,36 +93,157 @@
       </div> <!-- end of carousel -->
 
 
-
-
-
       <div class="container">
+        <div class="row">
+          <div class="col-lg-1"></div>
 
-        <div class="card-deck mt-5 mb-5">
-          <div class="card">
-            <img class="card-img-top" src="assets/image/cards-home/card1.png" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title font2 text-dark">Appetizers</h5>
-              <p class="card-text font2 text-dark">Seriously, if someone don't like this appetizer, you gotta grab they scruffy ass by the back of their neck and throw them out on the lawn. I can't help people like that.</p>
-            </div>
+          <div class="col-lg-10">
+
+
+            <!-- inner row -->
+
+            <div class="row">
+              <div class="col-lg-4 mt-5">
+                <!-- start of card -->
+                <div class="cardy">
+                  <img class="card-img-top" src="assets/image/gallery-gal/1.jpg" height="175px">
+                  <div class="card-bady">
+                    <h6 class="card-title text-center font3 font-weight-bold">Comming Soon...</h6>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 mt-5">
+                <!-- start of card -->
+                <div class="cardy">
+                  <img class="card-img-top" src="assets/images/pix2.jpeg" height="175px">
+                  <div class="card-bady">
+                    <h6 class="card-title text-center font3 font-weight-bold">Comming Soon...</h6>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 mt-5">
+                <!-- start of card -->
+                <div class="cardy">
+                  <img class="card-img-top" src="assets/images/pix3.jpeg" height="175px">
+                  <div class="card-bady">
+                    <h6 class="card-title text-center font3 font-weight-bold">Comming Soon...</h6>
+                  </div>
+                </div>
+              </div>
+            </div>  <!-- end  of inner row -->
+
+            <!-- 2nd row -->
+
+            <div class="row mb-5">
+              <div class="col-lg-4 mt-5">
+                <!-- start of card -->
+                <div class="cardy">
+                  <img class="card-img-top" src="assets/images/pix4.jpeg" height="175px">
+                  <div class="card-bady">
+                    <h6 class="card-title text-center font3 font-weight-bold">Comming Soon...</h6>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 mt-5">
+                <!-- start of card -->
+                <div class="cardy">
+                  <img class="card-img-top" src="assets/images/pix5.jpeg" height="175px">
+                  <div class="card-bady">
+                    <h6 class="card-title text-center font3 font-weight-bold">Comming Soon...</h6>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 mt-5">
+                <!-- start of card -->
+                <div class="cardy">
+                  <img class="card-img-top" src="assets/images/pix6.jpeg" height="175px">
+                  <div class="card-bady">
+                    <h6 class="card-title text-center font3 font-weight-bold">Comming Soon...</h6>
+                  </div>
+                </div>
+              </div>
+            </div>   <!-- end of 2nd row -->
+
+
+
+            <hr class="my-5">
+
+
+
+
+            <div class="row mb-5">
+                <h1 class="text-center font1 mx-auto ">European Cuisine</h1>
+            </div> <!-- end of heading -->
+
+
+            <!-- start of lightbox -->
+            <div class="container mb-5 text-center box">
+
+              <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+                    <a href="assets/image/lightbox/light1.png" data-lightbox="foods" data-title="amazing" alwaysShowNavOn="true">
+                         <img class="pict rounded " src="assets/image/lightbox/light1.png">
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+                    <a href="assets/image/lightbox/light2.png" data-lightbox="foods" data-title="amazing" alwaysShowNavOn="true">
+                         <img class="pict rounded "  src="assets/image/lightbox/light2.png">
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+                    <a href="assets/image/lightbox/light3.png" data-lightbox="foods" data-title="amazing" alwaysShowNavOn="true">
+                         <img class="pict rounded "  src="assets/image/lightbox/light3.png">
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 ">
+                    <a href="assets/image/lightbox/light4.png" data-lightbox="foods" data-title="amazing" alwaysShowNavOn="true">
+                         <img class="pict rounded " src="assets/image/lightbox/light4.png">
+                    </a>
+                </div>
+              </div>   <!-- end of row -->
+
+
+
+              <div class="row mt-5">
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+                    <a href="assets/image/lightbox/light5.png" data-lightbox="foods" data-title="amazing" alwaysShowNavOn="true">
+                         <img class="pict rounded " src="assets/image/lightbox/light5.png">
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+                    <a href="assets/image/lightbox/light6.png" data-lightbox="foods" data-title="amazing" alwaysShowNavOn="true">
+                         <img class="pict rounded "  src="assets/image/lightbox/light6.png">
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+                    <a href="assets/image/lightbox/light7.png" data-lightbox="foods" data-title="amazing" alwaysShowNavOn="true">
+                         <img class="pict rounded "  src="assets/image/lightbox/light7.png">
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+                    <a href="assets/image/lightbox/light8.png" data-lightbox="foods" data-title="amazing" alwaysShowNavOn="true">
+                         <img class="pict rounded " src="assets/image/lightbox/light8.png">
+                    </a>
+                </div>
+              </div>   <!-- end of row -->
+
+            </div>   <!-- end of light box -->
           </div>
-          <div class="card">
-            <img class="card-img-top" src="assets/image/cards-home/card2.png" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title font2 text-dark">Main Courses</h5>
-              <p class="card-text font2 text-dark">Go vegetable heavy. Reverse the psychology of your plate by making meat the side dish and vegetables the main course.</p>
-            </div>
-          </div>
-          <div class="card">
-            <img class="card-img-top" src="assets/image/cards-home/card3.png" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title font2 text-dark">Desserts</h5>
-              <p class="card-text font2 text-dark">It’s the finale. It’s the last impression. A bad dessert can ruin the meal.</p>
-            </div>
-          </div>
-        </div>   <!-- end of cards -->
-        
+        </div>
       </div>   <!-- end of container -->
+
+
+  
 
 
       <footer class="footer text-center">
@@ -198,6 +323,14 @@
           
       </footer>   <!-- end of footer -->
 
+
+      <script>
+    lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true,
+      'alwaysShowNavOn' : true
+    })
+</script>
 
  
   </body>
